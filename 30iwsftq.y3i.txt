@@ -1,0 +1,36 @@
+﻿Merge remote-tracking branch 'origin/gh-pages' into gh-pages
+
+Conflicts:
+	index.html
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch gh-pages
+# Your branch and 'origin/gh-pages' have diverged,
+# and have 1 and 6 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	new file:   489c8ebe9d0a918a05d7cdb29b616b61.jpg
+#	new file:   capture 2.jpg
+#	new file:   css/font-awesome.min.css
+#	modified:   css/style.css
+#	new file:   fonts/FontAwesome.otf
+#	new file:   fonts/fontawesome-webfont.eot
+#	new file:   fonts/fontawesome-webfont.svg
+#	new file:   fonts/fontawesome-webfont.ttf
+#	new file:   fonts/fontawesome-webfont.woff
+#	new file:   fonts/fontawesome-webfont.woff2
+#	new file:   images/dG5OpvN7mGtUHN9Ur_4c_pzXX9vugEdHYHCtjmwbCWA.png
+#	modified:   index.html
+#	new file:   office_worker_studying_reports_sjpg9568.jpg
+#
+
