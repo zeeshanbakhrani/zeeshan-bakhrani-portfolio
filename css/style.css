@@ -427,6 +427,8 @@ th {
 }
 /* Code Start */
 
+}
+
 .content {
   padding: 0 0.938rem;
   margin: 0 auto;
@@ -435,31 +437,7 @@ th {
 :focus {
   outline: none;
 }
-@media only screen and (max-width: 500px) and (max-width: 1000px) {
-    .top-navigation {
-        padding: 3em 0;
-    }
-    .introduction {
-       padding: 3em 0;
-        font-size: 3em;
-    }
-    .mid-navigation {
-       padding: 5em 0;
-      font-size: 1em;
-    }
-    .projects {
-       padding: 10em 0;
-      font-size: 2em;
-    }
-    .karma {
-       padding: 10em 0;
-      font-size: 2em;
-    }
-    .social {
-       padding: 10em 0;
-      font-size: 2em;
-    }
-}
+
 
 .top-navigation {
 background-color: rgba(21,163,198,0.9);
@@ -476,8 +454,7 @@ z-index: 999;
 
 
 .top-navigation >.content {
-  width: 970px;
-  height: 70px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 10px;
 }
@@ -490,11 +467,14 @@ z-index: 999;
   font-size: 1em;
   color: white;
   letter-spacing: 0.03em;
-  float: center;
+  text-align: center;
+  width: 100%;
+  -webkit-padding-start: 0px
 }
 .top-navigation .links li {
   display: inline-block;
-  text-indent: 150px;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .introduction {
@@ -573,7 +553,7 @@ h4 {
 .social {
   background-color: rgba(21,163,198,0.9);
   overflow: auto;
-  padding-bottom: 8.375rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 .social h5 {
@@ -610,4 +590,84 @@ h4 {
   color: black;
   margin-left: 3.125em;
   
+}
+@media only screen and (max-width: 768px) {
+body{
+  color: red
+}
+    .top-navigation {
+        padding: 2em 0;
+    }
+    .introduction {
+       padding: 2em 0;
+    }
+    .mid-navigation {
+       padding: 3em 0;
+    }
+    .projects {
+       padding: 2em 0;
+    }
+    .karma {
+       padding: 2em 0;
+    }
+    .social {
+       padding: 1em 0;
+    }
+}
+@media only screen and (max-width: 480px) {
+body{
+  color: green
+}
+      .top-navigation {
+        padding: 1em 0;
+    }
+    .introduction {
+       padding: 2em 0;
+    }
+    .introduction h1 {
+      margin-top: 4.25rem;
+      font-size: 2.125rem;
+}
+    .mid-navigation {
+       padding: 3em 0;
+    }
+    .projects {
+       padding: 2em 0;
+    }
+    .karma {
+       padding: 2em 0;
+    }
+    .social {
+       padding: 1em 0;
+    }
+}
+@media only screen and (max-width: 320px) {
+  body {
+    color: blue
+  }
+ .top-navigation {
+        padding: 1em 0;
+    }
+    .introduction {
+       padding: 2em 0;
+       padding-top: 1em 0;
+    }
+    .introduction h1 {
+      margin-top: 4.25rem;
+      font-size: 2.125rem;
+
+    }
+    .mid-navigation {
+       padding: 3em 0;
+    }
+    .projects {
+       padding: 2em 0;
+    }
+    .karma {
+       padding: 2em 0;
+       width:100%;
+    }
+    .social {
+       padding: 1em 0;
+    }
 }
